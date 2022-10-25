@@ -1,12 +1,20 @@
 public class OddEven {
 
-    public int oddEven(int a){
-        if ( a % 2 == 0 ){
-            System.out.println("Even");
-        } else {
-            System.out.println("Odd");
-        }
-        return a;
+    public String oddEven(long number) {
+        String even = "Even";
+        String odd = "Odd";
+        String undefined = "Undefined";
 
+        if (number <= Integer.MAX_VALUE && number >= Integer.MIN_VALUE) {
+            if (number % 2 == 0) {
+
+                return even;
+            } else {
+
+                return odd;
+            }
+        }
+
+        return undefined;
     }
 }

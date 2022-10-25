@@ -1,39 +1,36 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-//public class OddEvenTest {
-//
-//    //-345 "Odd"
-//    @Test
-//    public void testDataOdd345() {
-//        int a = -345;
-//        String expectedResult = "Odd";
-//
-//        int actualResult = new OddEven().oddEven(a);
-//
-//        Assert.assertEquals(actualResult, expectedResult);
-//    }
-//
-//    //0 "Even"
-//    @Test
-//    public void testDataEven0() {
-//        int a = 0;
-//        String expectedResult = "Even";
-//
-//        int actualResult = new OddEven().oddEven(a);
-//
-//        Assert.assertEquals(actualResult, expectedResult);
+public class OddEvenTest {
 
-        //0 "Even"
-//        @Test
-//        public void testDataEven0() {
-//            int a = 222222;
-//            String expectedResult = "Even";
-//
-//            int actualResult = new OddEven().oddEven(a);
-//
-//            Assert.assertEquals(actualResult, expectedResult);
-//        }
-//    }
-//}
+    @Test
+    public void testDataOdd345() {
+        int number = -345;
+        String expectedResult = "Odd";
+
+        String actualResult = new OddEven().oddEven(number);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+    @Test
+    public void testDataEven0() {
+        int number = 0;
+        String expectedResult = "Even";
+
+        String actualResult = new OddEven().oddEven(number);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+        @Test
+        public void testDataEven222222() {
+            int number = 222222;
+            String expectedResult = "Even";
+
+            String actualResult = new OddEven().oddEven(number);
+
+            Assert.assertEquals(actualResult, expectedResult);
+        }
+    }
 

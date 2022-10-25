@@ -10,6 +10,7 @@ public class OddIndices {
 
             return newArray;
         }
+
         return new int[0];
     }
 }
