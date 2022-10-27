@@ -7,7 +7,7 @@ public class ConditionalActions {
         } else if (M % 9 == 0) {
 
             return "Bad Number";
-        } else if (M % 11 == 0 && M % 7 !=0) {
+        } else if (M % 11 == 0 && M % 7 != 0) {
 
             return "Poor Number";
         }
