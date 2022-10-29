@@ -7,7 +7,7 @@ public class ManipulationsWithArraysTest {
 
     //5.
     @Test
-    public void CreateArrayFiveStringNumber() {
+    public void createArrayFiveStringNumber() {
         int[] array = {1, 2, 3, 4, 5};
         int number = 3;
         int[] expectedResult = {3, 6, 9, 12, 15};
@@ -19,7 +19,7 @@ public class ManipulationsWithArraysTest {
 
     //6
     @Test
-    public void DoubleArray_HappyPath() {
+    public void doubleArray_HappyPath() {
         int[] array = {1, 2, 3, 4, 5};
         double[] expectedResult = {1.0, 2.0, 3.0, 4.0, 5.0};
 
@@ -29,7 +29,7 @@ public class ManipulationsWithArraysTest {
     }
 
     @Test
-    public void DoubleArray_Zero() {
+    public void doubleArray_Zero() {
         int[] array = {1, 2, 3, 0, 0};
         double[] expectedResult = {1.0, 2.0, 3.0, 0.0, 0.0};
 
@@ -39,7 +39,7 @@ public class ManipulationsWithArraysTest {
     }
 
     @Test
-    public void DoubleArray_Negative() {
+    public void doubleArray_Negative() {
         int[] array = {};
         double[] expectedResult = {};
 
@@ -50,7 +50,7 @@ public class ManipulationsWithArraysTest {
 
     //7
     @Test
-    public void IntArray_HappyPath() {
+    public void intArray_HappyPath() {
 
         double[] array = {1.1, 2.5, 3.7, 4.0, 5.5};
         int[] expectedResult = {1, 2, 3, 4, 5};
@@ -61,7 +61,7 @@ public class ManipulationsWithArraysTest {
     }
 
     @Test
-    public void IntArray_Negative() {
+    public void intArray_Negative() {
 
         double[] array = {};
         int[] expectedResult = {};
@@ -73,7 +73,7 @@ public class ManipulationsWithArraysTest {
 
     //8
     @Test
-    public void StringArray_HappyPath() {
+    public void stringArray_HappyPath() {
 
         int[] array = {1, 2, 3, 4, 5};
         String[] expectedResult = {"1", "2", "3", "4", "5"};
@@ -84,7 +84,7 @@ public class ManipulationsWithArraysTest {
     }
 
     @Test
-    public void StringArray_Negative() {
+    public void stringArray_Negative() {
 
         int[] array = {};
 

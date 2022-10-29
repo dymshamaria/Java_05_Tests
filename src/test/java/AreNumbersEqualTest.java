@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 public class AreNumbersEqualTest {
 
     @Test
-    public void ExpectedNumberZero() {
+    public void expectedNumberZero() {
         int a = 89;
         int b = 89;
         int expectedResult = 0;
@@ -15,7 +15,7 @@ public class AreNumbersEqualTest {
     }
 
     @Test
-    public void ExpectedNumberOne() {
+    public void expectedNumberOne() {
         int a = 89;
         int b = -89;
         int expectedResult = 1;
@@ -26,7 +26,7 @@ public class AreNumbersEqualTest {
     }
 
     @Test
-    public void ExpectedNumberMinusOne() {
+    public void expectedNumberMinusOne() {
         int a = -89;
         int b = 89;
         int expectedResult = -1;

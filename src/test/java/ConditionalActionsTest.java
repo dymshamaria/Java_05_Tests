@@ -5,7 +5,7 @@ public class ConditionalActionsTest {
 
 
     @Test
-    public void ConditionalActionsGoodNumber() {
+    public void conditionalActionsGoodNumber() {
 
         int M = 0;
         String expectedResult = "Good Number";
@@ -16,7 +16,7 @@ public class ConditionalActionsTest {
     }
 
     @Test
-    public void ConditionalActionsBadNumber() {
+    public void conditionalActionsBadNumber() {
 
         int M = 18;
         String expectedResult = "Bad Number";
@@ -27,7 +27,7 @@ public class ConditionalActionsTest {
     }
 
     @Test
-    public void ConditionalActionsPoorNumber() {
+    public void conditionalActionsPoorNumber() {
 
         int M = 11;
         String expectedResult = "Poor Number";

@@ -6,7 +6,7 @@ public class CreateArrayTest {
 
 
     @Test
-    public void CreateArrayFiveIntNumber() {
+    public void createArrayFiveIntNumber() {
         int a = 1;
         int b = 2;
         int c = 3;
@@ -20,7 +20,7 @@ public class CreateArrayTest {
     }
 
     @Test
-    public void CreateArrayFiveDoubleNumber() {
+    public void createArrayFiveDoubleNumber() {
         double a = 1.1;
         double b = 2.5;
         double c = 3.7;
@@ -34,7 +34,7 @@ public class CreateArrayTest {
     }
 
     @Test
-    public void CreateArrayFiveStringNumber() {
+    public void createArrayFiveStringNumber() {
         String a = "It";
         String b = "was";
         String c = "an";
@@ -48,7 +48,7 @@ public class CreateArrayTest {
     }
 
     @Test
-    public void CreateArrayFromTextSentence() {
+    public void createArrayFromTextSentence() {
         String sentence = "It was an apple pie";
         String[] expectedResult = {"It", "was", "an", "apple", "pie"};
 
