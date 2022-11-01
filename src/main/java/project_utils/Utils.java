@@ -30,4 +30,12 @@ public class Utils {
         printTask();
 
     }
+
+    public static boolean isStringNotNullANdNotEmpty(String text){
+        if(text != null){
+            return !text.trim().isEmpty();
+        }
+
+        return false;
+    }
 }
