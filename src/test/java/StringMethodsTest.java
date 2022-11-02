@@ -118,6 +118,52 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
+    //11.
+    @Test
+    public void testAbracadabraTrue_Positive() {
+
+        String word = "Abracadabra";
+        boolean expectedResult = true;
+
+        boolean actualResult = new StringMethods().isFirstAnaLastLetterEqual(word);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+    @Test
+    public void testAbracadabraTrue_Negative() {
+
+        String word = "Abracadabr";
+        boolean expectedResult = false;
+
+        boolean actualResult = new StringMethods().isFirstAnaLastLetterEqual(word);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+    @Test
+    public void testWhippersnapperFalse_Positive() {
+
+        String word = "Whippersnapper";
+        boolean expectedResult = false;
+
+        boolean actualResult = new StringMethods().isFirstAnaLastLetterEqual(word);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+    @Test
+    public void testWhippersnapperFalse_Negative() {
+
+        String word = "Whippersnapperw";
+        boolean expectedResult = true;
+
+        boolean actualResult = new StringMethods().isFirstAnaLastLetterEqual(word);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
 
 
 

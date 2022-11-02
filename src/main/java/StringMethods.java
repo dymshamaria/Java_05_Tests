@@ -97,13 +97,15 @@ public class StringMethods {
     }
 
     //11.
-    public boolean isFirstAnaLastLetterEqual(String word){
-        if(!word.isEmpty()){
+    public boolean isFirstAnaLastLetterEqual(String word) {
+        if (word != null && !word.isEmpty() && !word.trim().contains(" ")) {
             return word.toLowerCase().charAt(0) == word.toLowerCase().charAt(word.length() - 1);
         }
 
         return false;
+
     }
+
 
 }
 
